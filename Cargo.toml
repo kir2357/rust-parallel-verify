@@ -1,0 +1,13 @@
+[package]
+name = "parallel_verify"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["foo","bar"]
+default-members = ["foo"]
+# default-membersの項目がない場合、src下のプログラムが実行される
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

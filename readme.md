@@ -1,3 +1,10 @@
-## ワークスペース分割
+# Rust非同期コード検証
 
-[[Rust] ファイル分割によるクレート分割、モジュール分割、パッケージ分割 - Qiita](https://qiita.com/kerupani129/items/bd41d8a07daa31256aab#4-%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9)
+
+## get-time
+
+非同期の動作確認のため、時刻を取得する
+
+[Rustで日時を扱う - Qiita](https://qiita.com/fujitayy/items/ae6175118cbed7134594#%E6%96%87%E5%AD%97%E5%88%97%E3%81%AB%E5%A4%89%E6%8F%9B)
+
+[chrono - crates.io: Rust Package Registry](https://crates.io/crates/chrono)

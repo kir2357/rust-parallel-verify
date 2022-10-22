@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = ["foo","bar"]
+members = ["foo","bar","get_time"]
 default-members = ["foo"]
 # default-membersの項目がない場合、src下のプログラムが実行される
 

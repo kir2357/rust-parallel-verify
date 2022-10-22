@@ -4,7 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = ["foo","bar","get_time"]
+members = [
+  "foo",
+  "bar",
+  "get_time",
+  "tokio_select"
+  ]
 default-members = ["foo"]
 # default-membersの項目がない場合、src下のプログラムが実行される
 
